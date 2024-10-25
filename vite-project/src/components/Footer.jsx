@@ -2,7 +2,7 @@ import { socialLinks } from "../constants"
 import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
-    <footer className="footer font-poppins text-center justify-center items-center">
+    <footer className="footer font-poppins text-center justify-center items-center mt-1">
         <hr className=" border-slate-200" />
         <div className="footer-container ">
 

@@ -6,6 +6,7 @@ import Alert from "../components/Alert";
 import { Canvas } from "@react-three/fiber";
 import Loader from "../components/Loader";
 import Fox from "../models/fox";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   const formRef = useRef();
@@ -17,14 +18,14 @@ const Contact = () => {
       return { ...currForm, [name]: value };
     });
   };
-  const [currentAnimation, setCurrentAnimation] = useState('idle')
-  const handleFocus=()=>setCurrentAnimation('walk');
-  const handleBlur=()=>setCurrentAnimation('idle');
-  
+  const [currentAnimation, setCurrentAnimation] = useState("idle");
+  const handleFocus = () => setCurrentAnimation("walk");
+  const handleBlur = () => setCurrentAnimation("idle");
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    setCurrentAnimation('hit');
+    setCurrentAnimation("hit");
     emailjs
       .send(
         "service_hzjmsno",
@@ -47,7 +48,7 @@ const Contact = () => {
         });
         setTimeout(() => {
           hideAlert(false);
-          setCurrentAnimation('idle')
+          setCurrentAnimation("idle");
           setForm({
             name: "",
             email: "",
@@ -58,7 +59,7 @@ const Contact = () => {
       .catch((error) => {
         setLoading(false);
         console.log(error);
-        setCurrentAnimation('idle')
+        setCurrentAnimation("idle");
 
         showAlert({
           show: true,
@@ -67,7 +68,7 @@ const Contact = () => {
         });
         setTimeout(() => {
           hideAlert(false);
-          setCurrentAnimation('idle')
+          setCurrentAnimation("idle");
           setForm({
             name: "",
             email: "",
@@ -76,7 +77,7 @@ const Contact = () => {
         }, 3000);
       });
   };
-  
+
   return (
     <section className="relative flex lg:flex-row flex-col max-container">
       {alert.show && <Alert {...alert} />}
@@ -154,7 +155,7 @@ const Contact = () => {
           />
           <Suspense fallback={<Loader />}>
             <Fox
-            currentAnimations={currentAnimation}
+              currentAnimations={currentAnimation}
               position={[0.5, 0.35, 0]}
               rotation={[12.629, -0.6, 0]}
               scale={[0.5, 0.5, 0.5]}
