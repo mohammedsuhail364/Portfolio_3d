@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 const HomeInfo = ({currentStage}) => {
   if(currentStage===1){
     return(
+        
         <div className=' info-box'>
             <p className=' font-medium sm:text-xl text-center'>
                 Hi I{"'"}m Suhail<br /> Software Engineer from India

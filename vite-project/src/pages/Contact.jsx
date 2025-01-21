@@ -6,7 +6,6 @@ import Alert from "../components/Alert";
 import { Canvas } from "@react-three/fiber";
 import Loader from "../components/Loader";
 import Fox from "../models/fox";
-import Footer from "../components/Footer";
 
 const Contact = () => {
   const formRef = useRef();

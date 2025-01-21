@@ -30,7 +30,7 @@ import MYSQL from './mysql-logo-svgrepo-com.svg'
 import python from './icons8-python.svg'
 import bootStrap from './icons8-bootstrap.svg';
 import postman from './postman-icon-svgrepo-com.svg'
-
+import java from './java_1.jpg'
 export {
     css,
     express,
@@ -63,5 +63,6 @@ export {
     MYSQL,
     python,
     bootStrap,
-    postman
+    postman,
+    java
 }
