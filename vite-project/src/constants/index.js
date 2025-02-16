@@ -6,7 +6,9 @@ import {
   QRCodeGenerator,
   memoryGame,
   lms,
-  extension
+  snapcircle,
+  snapgram,
+  temple
 
 } from "../assets/images";
 import {
@@ -204,28 +206,45 @@ export const projects = [
     link: "https://mohammedsuhail364.github.io/ChatApp/",
   },
   {
-    iconUrl: dropper,
-    theme: "btn-back-red",
-    name: "Dropper",
+    iconUrl: snapcircle,
+    theme: "btn-back-blue",
+    name: "Snap Circle",
     description:
-      "Developed a full-stack dropshipping web application using the MERN stack, featuring secure user authentication, real-time product catalog management, and seamless payment integration. Integrated an admin dashboard for efficient user, product, order management, and analytics tracking.",
-    link: "https://github.com/mohammedsuhail364/Dropper",
+    "SnapCircle is a real-time platform built with the MERN stack that connects users with professional photographers. Users can book appointments, register as photographers, and communicate seamlessly via WebSocket-powered chat. Featuring secure JWT authentication and optimized MongoDB schemas",
+    link: "https://snap-circle.vercel.app/",
   },
   {
     iconUrl: lms,
     theme: "btn-back-green",
     name: "Learning Management System",
     description:
-      "Developed a full-stack LMScusing React.js, Node.js,and MongoDB, serving over 500 users for course creation, user enrollment, and progress tracking. Implemented RESTful APIs to handle 10,000+ API calls per day, ensuring seamless communication between the frontend and backend while improving system efficiency.",
+      "Developed a full-stack LMS using React.js, Node.js,and MongoDB, serving over 500 users for course creation, user enrollment, and progress tracking. Implemented RESTful APIs to handle 10,000+ API calls per day, ensuring seamless communication between the frontend and backend while improving system efficiency.",
     link: "https://github.com/mohammedsuhail364/LMS",
   },
   {
-    iconUrl: extension,
-    theme: "btn-back-orange",
-    name: "Chrome Extension",
+    iconUrl: snapgram,
+    theme: "btn-back-green",
+    name: "Snapgram",
     description:
-      "Developed a Chrome extension for bookmarking YouTube video timestamps, enabling quick navigation and efficient management of saved moments. Built with HTML, CSS, and JavaScript, it enhances user experience for content creators and learners.efficient solution for content creators and learners to organize their video references.",
-    link: "https://github.com/mohammedsuhail364/youtubeTimestampExtension",
+      "Developed Snapgram, a full-stack social media application inspired by Instagram using React, Appwrite, Tailwind CSS, and ShadCN UI. Enabled seamless user authentication, real-time posts, media sharing, and interactive UI components. Optimized backend operations with Appwrite’s database and authentication services.",
+    link: "https://github.com/mohammedsuhail364/snapgram",
+  },
+  {
+    iconUrl: temple,
+    theme: "btn-back-pink",
+    name: "Temple Project",
+    description:
+      "Developed a full-stack Temple Information Management System using React.js, Node.js, MongoDB, and Tailwind CSS, serving over 300 temple administrators with comprehensive temple data, event scheduling, and donation tracking.Ensuring seamless communication between the frontend and backend.",
+    link: "https://temple-project-nine.vercel.app/",
+  },
+  
+  {
+    iconUrl: dropper,
+    theme: "btn-back-red",
+    name: "Dropper",
+    description:
+      "Developed a full-stack dropshipping web application using the MERN stack, featuring secure user authentication, real-time product catalog management, and seamless payment integration. Integrated an admin dashboard for efficient user, product, order management, and analytics tracking.",
+    link: "https://github.com/mohammedsuhail364/Dropper",
   },
   {
     iconUrl: QRCodeGenerator,

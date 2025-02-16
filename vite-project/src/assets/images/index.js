@@ -7,6 +7,9 @@ import QRCodeGenerator from './qr-img-1.png';
 import memoryGame from './memoryGame.png';
 import lms from './lms.jpg';
 import extension from './chrome extension.jpg';
+import snapcircle from './snap_circle.png'
+import temple from './temple.jpg';
+import snapgram from './snapgram.jpg'
 
 export {
     logo,
@@ -17,5 +20,8 @@ export {
     QRCodeGenerator,
     memoryGame,
     lms,
-    extension
+    extension,
+    snapcircle,
+    snapgram,
+    temple
   };
