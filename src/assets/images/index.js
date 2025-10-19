@@ -12,7 +12,8 @@ import temple from './temple.jpg';
 import snapgram from './snapgram.jpg';
 import deluge from './deluge_app_logo_NOds.png';
 import zoho from './zoho.webp';
-
+import urlShortener from './url_shortener.jpeg'
+import crm from './crm.png'
 
 export {
     logo,
@@ -28,5 +29,7 @@ export {
     snapgram,
     temple,
     deluge,
-    zoho
+    zoho,
+    urlShortener,
+    crm
   };

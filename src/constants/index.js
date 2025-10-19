@@ -10,8 +10,9 @@ import {
   snapgram,
   temple,
   zoho,
-  deluge
-
+  deluge,
+  crm,
+  urlShortener,
 } from "../assets/images";
 import {
   css,
@@ -32,7 +33,8 @@ import {
   bootStrap,
   postman,
   java,
-  resume
+  resume,
+  
 } from "../assets/icons";
 
 export const skills = [
@@ -46,7 +48,7 @@ export const skills = [
     name: "Java",
     type: "Backend",
   },
-  
+
   {
     imageUrl: javascript,
     name: "javaScript",
@@ -186,9 +188,9 @@ export const experiences = [
 ];
 export const socialLinks = [
   {
-    name:"Resume",
-    iconUrl:resume,
-    link:"https://drive.google.com/file/d/1cNFVXtSk8EsL9LbAQCwqh5q_PozOBdIy/view?usp=drive_link"
+    name: "Resume",
+    iconUrl: resume,
+    link: "https://drive.google.com/file/d/1cNFVXtSk8EsL9LbAQCwqh5q_PozOBdIy/view?usp=drive_link",
   },
   {
     name: "GitHub",
@@ -207,25 +209,44 @@ export const projects = [
   {
     iconUrl: chatApp,
     theme: "btn-back-blue",
-    githubUrl:"https://github.com/mohammedsuhail364/Chat-Us",
+    githubUrl: "https://github.com/mohammedsuhail364/Chat-Us",
     name: "Chat-Us",
     description:
-    "Built a real-time chat application using the MERN stack, featuring WebSocket integration for seamless live messaging. Implemented secure user authentication with JWT and optimized MongoDB schemas for handling large chat data. Focused on responsive design and cross-platform compatibility.",
+      "Built a real-time chat application using the MERN stack, featuring WebSocket integration for seamless live messaging. Implemented secure user authentication with JWT and optimized MongoDB schemas for handling large chat data. Focused on responsive design and cross-platform compatibility.",
     link: "https://mohammedsuhail364.github.io/ChatApp/",
   },
   {
+    iconUrl: crm,
+    theme: "btn-back-orange",
+    githubUrl: "https://github.com/mohammedsuhail364/mcierp",
+    name: "MCIERP",
+    description:
+      "Built a Customer Relationship Management (CRM) system with the MERN stack and Tailwind CSS. Features include role-based access control, JWT authentication, ticket creation and tracking, a detailed analytics dashboard, and a call register module for managing and analyzing customer interactions efficiently.",
+    link: "https://mcierp.vercel.app/",
+  },
+  {
+    iconUrl: urlShortener,
+    theme: "btn-back-green",
+    githubUrl: "https://github.com/mohammedsuhail364/url_shortener",
+    name: "Linklytics",
+    description:
+      "Developed a full-stack URL shortener using React, Tailwind CSS, Spring Boot, and PostgreSQL. The app converts long URLs into short, trackable links, featuring analytics for click count and date-wise insights. Implemented JWT authentication and a responsive, user-friendly interface for secure link management.",
+    link: "https://url-shortener-nine-beige.vercel.app/",
+  },
+
+  {
     iconUrl: snapcircle,
     theme: "btn-back-blue",
-    githubUrl:"https://github.com/mohammedsuhail364/Snap_Circle",
+    githubUrl: "https://github.com/mohammedsuhail364/Snap_Circle",
     name: "Snap Circle",
     description:
-    "SnapCircle is a real-time platform built with the MERN stack that connects users with professional photographers. Users can book appointments, register as photographers, and communicate seamlessly via WebSocket-powered chat. Featuring secure JWT authentication and optimized MongoDB schemas",
+      "SnapCircle is a real-time platform built with the MERN stack that connects users with professional photographers. Users can book appointments, register as photographers, and communicate seamlessly via WebSocket-powered chat. Featuring secure JWT authentication and optimized MongoDB schemas",
     link: "https://snap-circle.vercel.app/",
   },
   {
     iconUrl: lms,
     theme: "btn-back-green",
-    githubUrl:"https://github.com/mohammedsuhail364/LMS",
+    githubUrl: "https://github.com/mohammedsuhail364/LMS",
     name: "Learning Management System",
     description:
       "Developed a full-stack LMS using React.js, Node.js,and MongoDB, serving over 500 users for course creation, user enrollment, and progress tracking. Implemented RESTful APIs to handle 10,000+ API calls per day, ensuring seamless communication between the frontend and backend while improving system efficiency.",
@@ -234,7 +255,7 @@ export const projects = [
   {
     iconUrl: snapgram,
     theme: "btn-back-green",
-    githubUrl:"https://github.com/mohammedsuhail364/snapgram",
+    githubUrl: "https://github.com/mohammedsuhail364/snapgram",
     name: "Snapgram",
     description:
       "Developed Snapgram, a full-stack social media application inspired by Instagram using React, Appwrite, Tailwind CSS, and ShadCN UI. Enabled seamless user authentication, real-time posts, media sharing, and interactive UI components. Optimized backend operations with Appwrite’s database and authentication services.",
@@ -243,17 +264,17 @@ export const projects = [
   {
     iconUrl: temple,
     theme: "btn-back-pink",
-    githubUrl:"https://github.com/mohammedsuhail364/Temple_Project",
+    githubUrl: "https://github.com/mohammedsuhail364/Temple_Project",
     name: "Temple Project",
     description:
       "Developed a full-stack Temple Information Management System using React.js, Node.js, MongoDB, and Tailwind CSS, serving over 300 temple administrators with comprehensive temple data, event scheduling, and donation tracking.Ensuring seamless communication between the frontend and backend.",
     link: "https://temple-project-nine.vercel.app/",
   },
-  
+
   {
     iconUrl: dropper,
     theme: "btn-back-red",
-    githubUrl:"https://github.com/mohammedsuhail364/Dropper",
+    githubUrl: "https://github.com/mohammedsuhail364/Dropper",
     name: "Dropper",
     description:
       "Developed a full-stack dropshipping web application using the MERN stack, featuring secure user authentication, real-time product catalog management, and seamless payment integration. Integrated an admin dashboard for efficient user, product, order management, and analytics tracking.",
@@ -262,7 +283,7 @@ export const projects = [
   {
     iconUrl: QRCodeGenerator,
     theme: "btn-back-green",
-    githubUrl:"https://github.com/mohammedsuhail364/Qr_code_generator",
+    githubUrl: "https://github.com/mohammedsuhail364/Qr_code_generator",
     name: "QR Generator",
     description:
       "Developed a QR code generator using React, leveraging a QR code generation API for dynamic code creation. Implemented a user-friendly interface with real-time QR code generation, ensuring smooth and responsive performance.",
@@ -271,7 +292,7 @@ export const projects = [
   {
     iconUrl: weather,
     theme: "btn-back-yellow",
-    githubUrl:"https://github.com/mohammedsuhail364/weather_project",
+    githubUrl: "https://github.com/mohammedsuhail364/weather_project",
     name: "Weather App",
     description:
       "Created a weather app using React and integrated a weather API for real-time data. The app features a responsive design, providing users with accurate weather forecasts and conditions based on their location or input.",
@@ -280,7 +301,7 @@ export const projects = [
   {
     iconUrl: snakeGame,
     theme: "btn-back-orange",
-    githubUrl:"https://github.com/mohammedsuhail364/SnakeGame",
+    githubUrl: "https://github.com/mohammedsuhail364/SnakeGame",
     name: "Snake Game",
     description:
       "Built a classic Snake game using HTML, CSS, and JavaScript, featuring smooth controls and responsive gameplay. The game offers an intuitive user interface with dynamic movement and real-time score tracking. Optimized for performance across various devices, providing an engaging and nostalgic experience.",
@@ -289,7 +310,7 @@ export const projects = [
   {
     iconUrl: memoryGame,
     theme: "btn-back-pink",
-    githubUrl:"https://github.com/mohammedsuhail364/MemoreGame",
+    githubUrl: "https://github.com/mohammedsuhail364/MemoreGame",
     name: "Memory Game",
     description:
       "Developed a memory game using HTML, CSS, and JavaScript, designed to challenge players recall skills. The game features dynamic card flipping, random shuffling, and smooth animations for an engaging user experience. Implemented score tracking and responsive design, ensuring compatibility across devices.",
