@@ -209,11 +209,11 @@ export const projects = [
   {
     iconUrl: chatApp,
     theme: "btn-back-blue",
-    githubUrl: "https://github.com/mohammedsuhail364/Chat-Us",
+    githubUrl: "https://github.com/mohammedsuhail364/Chat_App",
     name: "Chat-Us",
     description:
       "Built a real-time chat application using the MERN stack, featuring WebSocket integration for seamless live messaging. Implemented secure user authentication with JWT and optimized MongoDB schemas for handling large chat data. Focused on responsive design and cross-platform compatibility.",
-    link: "https://mohammedsuhail364.github.io/ChatApp/",
+    link: "https://chat-app-c0br.onrender.com/",
   },
   {
     iconUrl: crm,
