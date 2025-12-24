@@ -134,7 +134,7 @@ export const skills = [
 ];
 export const experiences = [
   {
-    title: "Enterprise Business Solution Developer",
+    title: "Developer",
     companyName: "Zoho",
     icon: zoho,
     iconBg: "#b7e4c7",
@@ -190,7 +190,7 @@ export const socialLinks = [
   {
     name: "Resume",
     iconUrl: resume,
-    link: "https://drive.google.com/file/d/1cNFVXtSk8EsL9LbAQCwqh5q_PozOBdIy/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1EmN7cxwtqTUfgRoMORN-XK5WSVt-AWBw/view?usp=sharing",
   },
   {
     name: "GitHub",
@@ -213,7 +213,7 @@ export const projects = [
     name: "Chat-Us",
     description:
       "Built a real-time chat application using the MERN stack, featuring WebSocket integration for seamless live messaging. Implemented secure user authentication with JWT and optimized MongoDB schemas for handling large chat data. Focused on responsive design and cross-platform compatibility.",
-    link: "https://chat-app-c0br.onrender.com/",
+    link: "https://chat-app-rho-nine-14.vercel.app/",
   },
   {
     iconUrl: crm,
