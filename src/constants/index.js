@@ -190,7 +190,7 @@ export const socialLinks = [
   {
     name: "Resume",
     iconUrl: resume,
-    link: "https://drive.google.com/file/d/1EmN7cxwtqTUfgRoMORN-XK5WSVt-AWBw/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1O2_-NLdXvlYuAB8AM4H-Gy6xNE4QyJK8/view?usp=drive_link",
   },
   {
     name: "GitHub",
@@ -213,7 +213,7 @@ export const projects = [
     name: "Chat-Us",
     description:
       "Built a real-time chat application using the MERN stack, featuring WebSocket integration for seamless live messaging. Implemented secure user authentication with JWT and optimized MongoDB schemas for handling large chat data. Focused on responsive design and cross-platform compatibility.",
-    link: "https://chat-app-rho-nine-14.vercel.app/",
+    link: "https://chat-app-c0br.onrender.com",
   },
   {
     iconUrl: crm,
