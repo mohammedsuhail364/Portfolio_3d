@@ -13,6 +13,7 @@ import {
   deluge,
   crm,
   urlShortener,
+  skillForge,
 } from "../assets/images";
 import {
   css,
@@ -34,7 +35,6 @@ import {
   postman,
   java,
   resume,
-  
 } from "../assets/icons";
 
 export const skills = [
@@ -140,57 +140,58 @@ export const experiences = [
     iconBg: "#b7e4c7",
     date: "May 2025 - Present",
     points: [
-      "Built advanced custom functions, client scripts, and widgets in Zoho CRM Plus to automate workflows across Leads, Deals, Contacts, and other key modules.",
-      "Developed scalable internal tools and REST APIs to streamline data flow between modules like Products and Accounts for seamless integration.",
-      "Worked with cross-functional teams to deliver analytics dashboards that helped track KPIs, performance metrics, and business goals.",
-      "Created COQL-based reports for efficient data querying and insights , enabling faster, data-driven decision-making across departments.",
+      "Designed and implemented automation workflows in Zoho CRM Plus using custom functions, client scripts, and widgets across Leads, Deals, and Contacts modules, reducing repetitive manual operations.",
+      "Built internal REST APIs to standardize data exchange between Accounts, Products, and related modules, improving consistency and reducing data mismatches.",
+      "Developed analytics dashboards and COQL-based reporting pipelines to track business KPIs and operational metrics for internal teams.",
+      "Collaborated with product stakeholders to debug production issues, analyze root causes, and deploy reliable fixes without disrupting existing workflows.",
     ],
   },
   {
     title: "Full Stack Developer",
-    companyName: "Personal",
+    companyName: "Personal Project — Real-Time Chat System",
     icon: chatApp,
     iconBg: "#b7e4c7",
     date: "July 2024 - August 2024",
     points: [
-      "Developed a real-time chat application using the MERN stack (MongoDB, Express.js, React.js, Node.js)",
-      "Implemented Web Socket for live messaging, ensuring seamless communication between users",
-      "Integrated user authentication and authorization with JWT, enhancing security",
-      "Designed and optimized MongoDB schemas to handle large volumes of chat data efficiently. Emphasized responsive design and cross-platform compatibility",
+      "Built a real-time messaging platform using Node.js, Express, React, and MongoDB supporting concurrent users with WebSocket-based communication.",
+      "Implemented JWT authentication and session handling to secure user communication and prevent unauthorized access.",
+      "Designed database schemas and indexing strategies to optimize message retrieval latency and handle high write frequency.",
+      "Handled connection lifecycle events (join/leave/reconnect) to maintain reliable message delivery and user presence state.",
     ],
   },
   {
     title: "Full Stack Developer",
-    companyName: "Personal",
+    companyName: "Personal Project — Learning Management System",
     icon: lms,
     iconBg: "#accba3",
     date: "May 2024 - June 2024",
     points: [
-      "Leveraging TailwindCSS and Shadcn UI, the LMS delivers a sleek, customizable, and responsive design for seamless cross-device experiences.",
-      "Built with MongoDB, Express.js, React.js, and Node.js, the LMS ensures efficient user authentication, course management, and scalable data handling.",
-      "The LMS supports course creation, student enrollment, progress tracking, and assessments, with React.js enabling interactivity and APIs ensuring smooth server-client communication.",
-      "TailwindCSS and Shadcn UI streamline styling with reusable components, reducing boilerplate and enhancing maintainability.",
+      "Developed a full-stack LMS supporting course creation, enrollment, and progress tracking with RESTful APIs and role-based authorization.",
+      "Designed modular backend services to manage users, courses, and assessments while ensuring data consistency across operations.",
+      "Optimized frontend performance using reusable UI components and minimized redundant API calls through efficient state handling.",
+      "Implemented scalable schema design for managing course content and user progress records.",
     ],
   },
   {
     title: "Full Stack Developer",
-    companyName: "Personal",
+    companyName: "Personal Project — E-commerce Platform",
     icon: dropper,
     iconBg: "#accbe1",
     date: "April 2024 - May 2024",
     points: [
-      "Developed a comprehensive drop shipping web application using the MERN stack, which includes React for a dynamic frontend",
-      "Redox for state management, Node.js and Express.js for the backend, and MongoDB for data storage",
-      "The application features secure user authentication, real-time product catalog management and seamless payment gateway integration",
-      "It also includes an admin dashboard for managing users, products, orders, and analytics",
+      "Built an end-to-end e-commerce platform with product catalog, order management, and admin controls using MERN architecture.",
+      "Implemented secure authentication, authorization, and protected routes for users and administrators.",
+      "Integrated payment processing workflow and ensured transactional consistency between order creation and payment confirmation.",
+      "Designed APIs for inventory and order lifecycle management to handle concurrent updates safely.",
     ],
   },
 ];
+
 export const socialLinks = [
   {
     name: "Resume",
     iconUrl: resume,
-    link: "https://drive.google.com/file/d/1O2_-NLdXvlYuAB8AM4H-Gy6xNE4QyJK8/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/16ql4QRdW_YrXqWF47IGJwnLNJBkRlUYS/view?usp=drive_link",
   },
   {
     name: "GitHub",
@@ -212,8 +213,35 @@ export const projects = [
     githubUrl: "https://github.com/mohammedsuhail364/Chat_App",
     name: "Chat-Us",
     description:
-      "Built a real-time chat application using the MERN stack, featuring WebSocket integration for seamless live messaging. Implemented secure user authentication with JWT and optimized MongoDB schemas for handling large chat data. Focused on responsive design and cross-platform compatibility.",
+      "Designed WebSocket messaging system handling session management, automatic reconnections and real-time presence tracking. Implemented MongoDB indexing strategy to maintain consistent low-latency message retrieval during concurrent user activity.",
     link: "https://chat-app-c0br.onrender.com",
+  },
+  {
+    iconUrl: skillForge,
+    theme: "btn-back-green",
+    githubUrl: "https://github.com/mohammedsuhail364/SkillForge",
+    name: "Skill Forge",
+    description:
+      "Implemented authenticated video and chat sessions using server-generated access tokens. Built protected APIs with rate limiting and webhook-driven workflows for reliable session lifecycle management without manual intervention.",
+    link: "https://skillforge-yfvi.onrender.com/",
+  },
+  {
+    iconUrl: lms,
+    theme: "btn-back-green",
+    githubUrl: "https://github.com/mohammedsuhail364/LMS",
+    name: "Learning Management System",
+    description:
+      "Designed course enrollment and progress tracking data relationships with MongoDB. Implemented aggregation pipelines for efficient retrieval of student activity records and progress summaries.",
+    link: "https://lms-omega-rosy.vercel.app/",
+  },
+  {
+    iconUrl: snapgram,
+    theme: "btn-back-green",
+    githubUrl: "https://github.com/mohammedsuhail364/snapgram",
+    name: "Moment Us",
+    description:
+      "Built social feed interactions with authenticated media upload and retrieval. Optimized backend database queries to maintain responsive user experience during concurrent feed requests.",
+    link: "https://momentus.onrender.com/",
   },
   {
     iconUrl: crm,
@@ -221,7 +249,7 @@ export const projects = [
     githubUrl: "https://github.com/mohammedsuhail364/mcierp",
     name: "MCIERP",
     description:
-      "Built a Customer Relationship Management (CRM) system with the MERN stack and Tailwind CSS. Features include role-based access control, JWT authentication, ticket creation and tracking, a detailed analytics dashboard, and a call register module for managing and analyzing customer interactions efficiently.",
+      "Developed role-based authorization middleware controlling access across user hierarchies. Built automated ticket lifecycle workflows with status tracking. Structured modular services ensuring permission safety and consistent operational audit trails.",
     link: "https://mcierp.vercel.app/",
   },
   {
@@ -230,54 +258,35 @@ export const projects = [
     githubUrl: "https://github.com/mohammedsuhail364/url_shortener",
     name: "Linklytics",
     description:
-      "Developed a full-stack URL shortener using React, Tailwind CSS, Spring Boot, and PostgreSQL. The app converts long URLs into short, trackable links, featuring analytics for click count and date-wise insights. Implemented JWT authentication and a responsive, user-friendly interface for secure link management.",
+      "Built URL redirection and analytics service with indexed database queries for click tracking. Implemented caching strategy to maintain predictable redirect latency during traffic spikes. Designed database schema for efficient analytics aggregation.",
     link: "https://url-shortener-nine-beige.vercel.app/",
   },
-
   {
     iconUrl: snapcircle,
     theme: "btn-back-blue",
     githubUrl: "https://github.com/mohammedsuhail364/Snap_Circle",
     name: "Snap Circle",
     description:
-      "SnapCircle is a real-time platform built with the MERN stack that connects users with professional photographers. Users can book appointments, register as photographers, and communicate seamlessly via WebSocket-powered chat. Featuring secure JWT authentication and optimized MongoDB schemas",
+      "Implemented booking workflows integrated with real-time messaging communication. Ensured state synchronization between scheduling actions and user conversations through database transaction management.",
     link: "https://snap-circle.vercel.app/",
   },
-  {
-    iconUrl: lms,
-    theme: "btn-back-green",
-    githubUrl: "https://github.com/mohammedsuhail364/LMS",
-    name: "Learning Management System",
-    description:
-      "Developed a full-stack LMS using React.js, Node.js,and MongoDB, serving over 500 users for course creation, user enrollment, and progress tracking. Implemented RESTful APIs to handle 10,000+ API calls per day, ensuring seamless communication between the frontend and backend while improving system efficiency.",
-    link: " https://lms-omega-rosy.vercel.app/",
-  },
-  {
-    iconUrl: snapgram,
-    theme: "btn-back-green",
-    githubUrl: "https://github.com/mohammedsuhail364/snapgram",
-    name: "Snapgram",
-    description:
-      "Developed Snapgram, a full-stack social media application inspired by Instagram using React, Appwrite, Tailwind CSS, and ShadCN UI. Enabled seamless user authentication, real-time posts, media sharing, and interactive UI components. Optimized backend operations with Appwrite’s database and authentication services.",
-    link: "https://github.com/mohammedsuhail364/snapgram",
-  },
+
   {
     iconUrl: temple,
     theme: "btn-back-pink",
     githubUrl: "https://github.com/mohammedsuhail364/Temple_Project",
     name: "Temple Project",
     description:
-      "Developed a full-stack Temple Information Management System using React.js, Node.js, MongoDB, and Tailwind CSS, serving over 300 temple administrators with comprehensive temple data, event scheduling, and donation tracking.Ensuring seamless communication between the frontend and backend.",
+      "Created event scheduling system with calendar integration and donation tracking administrative workflows. Implemented data validation and consistency checks across related entities during updates.",
     link: "https://temple-project-nine.vercel.app/",
   },
-
   {
     iconUrl: dropper,
     theme: "btn-back-red",
     githubUrl: "https://github.com/mohammedsuhail364/Dropper",
     name: "Dropper",
     description:
-      "Developed a full-stack dropshipping web application using the MERN stack, featuring secure user authentication, real-time product catalog management, and seamless payment integration. Integrated an admin dashboard for efficient user, product, order management, and analytics tracking.",
+      "Implemented order lifecycle management with status transitions. Built protected purchase routes with authentication middleware. Ensured transactional consistency between payment confirmation and order creation using database operations.",
     link: "https://github.com/mohammedsuhail364/Dropper",
   },
   {
@@ -286,7 +295,7 @@ export const projects = [
     githubUrl: "https://github.com/mohammedsuhail364/Qr_code_generator",
     name: "QR Generator",
     description:
-      "Developed a QR code generator using React, leveraging a QR code generation API for dynamic code creation. Implemented a user-friendly interface with real-time QR code generation, ensuring smooth and responsive performance.",
+      "Integrated external API for dynamic QR code generation with error handling. Implemented debounced input handling to prevent excessive API calls during continuous user typing.",
     link: "https://mohammedsuhail364.github.io/Qr_code_generator/",
   },
   {
@@ -295,7 +304,7 @@ export const projects = [
     githubUrl: "https://github.com/mohammedsuhail364/weather_project",
     name: "Weather App",
     description:
-      "Created a weather app using React and integrated a weather API for real-time data. The app features a responsive design, providing users with accurate weather forecasts and conditions based on their location or input.",
+      "Fetched external weather data using asynchronous API requests with loading states. Managed UI state updates during data refreshes and implemented error boundaries for API failures.",
     link: "https://mohammedsuhail364.github.io/weather_project/",
   },
   {
@@ -304,7 +313,7 @@ export const projects = [
     githubUrl: "https://github.com/mohammedsuhail364/SnakeGame",
     name: "Snake Game",
     description:
-      "Built a classic Snake game using HTML, CSS, and JavaScript, featuring smooth controls and responsive gameplay. The game offers an intuitive user interface with dynamic movement and real-time score tracking. Optimized for performance across various devices, providing an engaging and nostalgic experience.",
+      "Implemented continuous movement game loop with collision detection logic. Managed game state including score tracking and boundary conditions during dynamic gameplay.",
     link: "https://mohammedsuhail364.github.io/SnakeGame/",
   },
   {
@@ -313,7 +322,7 @@ export const projects = [
     githubUrl: "https://github.com/mohammedsuhail364/MemoreGame",
     name: "Memory Game",
     description:
-      "Developed a memory game using HTML, CSS, and JavaScript, designed to challenge players recall skills. The game features dynamic card flipping, random shuffling, and smooth animations for an engaging user experience. Implemented score tracking and responsive design, ensuring compatibility across devices.",
+      "Built randomized card matching logic with controlled state transitions. Implemented game reset functionality and prevented race conditions during rapid user interactions.",
     link: "https://mohammedsuhail364.github.io/MemoreGame/",
   },
 ];

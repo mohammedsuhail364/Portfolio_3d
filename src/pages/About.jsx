@@ -53,9 +53,9 @@ const About = () => {
           <div className="mt-5 text-slate-500 flex flex-col gap-3">
             <p>
               I have a strong foundation in Data Structures and Algorithms, with over{" "}
-              <span className="font-semibold text-black">1000+ problems with a continuous streak of 480+ days</span> solved on LeetCode
+              <span className="font-semibold text-black">1200+ problems with a continuous streak of 480+ days</span> solved on LeetCode
               and a max contest rating of{" "}
-              <span className="font-semibold text-black">1542</span>.
+              <span className="font-semibold text-black">1842</span>.
             </p>
             <p>
               Achieved{" "}

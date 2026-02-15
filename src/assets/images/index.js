@@ -14,6 +14,7 @@ import deluge from './deluge_app_logo_NOds.png';
 import zoho from './zoho.webp';
 import urlShortener from './url_shortener.jpeg'
 import crm from './crm.png'
+import skillForge from './skillForge.png';
 
 export {
     logo,
@@ -31,5 +32,6 @@ export {
     deluge,
     zoho,
     urlShortener,
-    crm
+    crm,
+    skillForge
   };
